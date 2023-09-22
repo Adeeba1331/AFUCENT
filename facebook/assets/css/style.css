@@ -27,11 +27,14 @@ header{
     color:white;
 }
 .email{
-    float:left;
+    position: absolute;
+    float:right;
+    left:800px;
 }
 .password{
-    float: left;
-    margin-left: 15px;
+    position: absolute;
+    float:right;
+    left:1000px;
 }
 .password  input[type='password']{
     height: 20px;
@@ -39,9 +42,10 @@ header{
     border:1px solid #1d2a5b;
 }
 .login-button{
-    float: left;
+    position: absolute;
+    float:right;
+    left:1200px;
     margin-top: 20px;
-    margin-left: 20px;
 }
 .login-button input [type='submit']{
     background-color:black; 
@@ -73,12 +77,18 @@ header{
 }
 .facebook-connect img{
     margin-top: 10px;
-    width:40%;
-    height:50%;
+    width:50%;
+    height:60%;
+    position: absolute;
+    top:150px;
+    left:80px;
+
 }
 .facebook-connect p{
+    position:absolute;
+    left:80px;
     color:#0e385f;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
 }
 .create-account{
@@ -140,4 +150,7 @@ header{
     color:#fff;
     margin-top: 15px;
     margin-bottom:15px;
+}
+body{
+    background-color: #BCD2E8;
 }
