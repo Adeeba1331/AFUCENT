@@ -14,9 +14,9 @@ body{
     float:left;
 }
 .buttons{
-    position: absolute;
+    /* position: absolute;
     margin-left: 500px;
-    margin-top: 10px; 
+    margin-top: 10px;  */
    
 }
 .quote button{
@@ -94,5 +94,10 @@ body{
     background-color: #5f096070;
     border: 1px solid  #9146FF;
     border-radius: 5px;
-
+}
+.heading{
+    display: inline-block;
+}
+.section1-img{
+    width: 50%;
 }
